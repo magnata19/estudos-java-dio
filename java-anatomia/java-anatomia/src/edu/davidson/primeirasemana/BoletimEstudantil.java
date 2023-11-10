@@ -1,3 +1,5 @@
+package edu.davidson.primeirasemana;
+
 public class BoletimEstudantil {
   public static void main(String[] args) {
     int mediaFinal = 8;
