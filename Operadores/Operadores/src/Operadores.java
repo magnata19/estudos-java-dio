@@ -1,17 +1,15 @@
 public class Operadores {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
 
-        int numero = 5;
-        
-        numero = -numero;
-        
-        System.out.println(numero);
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
-        numero = numero * -1;
+        if(condicao1 == true && condicao2 == false) {
+            System.out.println("True");
+        }
 
-        System.out.println(numero);
-
-
+        if(condicao1 == true || condicao2 == false) {
+            System.out.println("True");
+        }
     }
 }
